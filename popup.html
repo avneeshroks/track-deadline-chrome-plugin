@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Track Deadlines</title>
+        <script src="popup.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>Deadlines Tracker!!</h1>
+            </header>
+            <div class="addTaskForm">
+                <form id="addTaskForm">
+                    <div class="row">
+                        <div class="formInput">
+                            <input id="taskName" type="text" placeholder="Task Name">
+                        </div>
+                        <div class="formInput">
+                            <input id="taskDeadline" type="date" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button id="addTask">Add task!</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="removeAllTasks">
+                <button id="removeAllTasks">Remove all tasks!</button>
+            </div>
+
+            <div>
+                <ul id="tasks"></ul>
+            </div>
+        </div>
+    </body>
+
+</html>

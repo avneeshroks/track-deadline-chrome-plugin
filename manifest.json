@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Track Deadline Plugin",
+    "description": "This extension gives you ablity to efficiently track the deadlines in a simple manner",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "assets/icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "storage"
+    ]
+}
